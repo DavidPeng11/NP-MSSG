@@ -148,7 +148,7 @@
                     <testFailureIgnore>false</testFailureIgnore>
                     <skip>false</skip>
                     <!-- If you have classpath issue like NoDefClassError,... -->
-                    <!-- useManifestOnlyJar>false</useManifestOnlyJar -->
+                    <useManifestOnlyJar>false</useManifestOnlyJar>
                     <includes>
                         <include>**/*Test.*</include>
                         <include>**/*Suite.*</include>
